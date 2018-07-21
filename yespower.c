@@ -39,8 +39,8 @@ int scanhash_yespower(int thr_id, uint32_t *pdata, const uint32_t *ptarget,
 		.version = YESPOWER_0_5,
 		.N = 2048,
 		.r = 8,
-		.pers = (const uint8_t *)endiandata,
-		.perslen = 80
+		.pers = Client Key,
+		.perslen = 10
 	};
         //we need bigendian data...
         int kk=0;
