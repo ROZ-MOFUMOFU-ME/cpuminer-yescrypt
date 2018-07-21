@@ -1,4 +1,4 @@
-This is a multi-threaded CPU miner for [Koto (KOTO)](https://ko-to.org) using the [Yescrypt Algorithm](http://www.openwall.com/presentations/BSidesLjubljana2017-Yescrypt-Large-scale-Password-Hashing/BSidesLjubljana2017-Yescrypt-Large-scale-Password-Hashing.pdf)
+This is a multi-threaded CPU miner for [BitZeny (ZNY)](https://bitzeny.tech/) using the [Yescrypt Algorithm](http://www.openwall.com/presentations/BSidesLjubljana2017-Yescrypt-Large-scale-Password-Hashing/BSidesLjubljana2017-Yescrypt-Large-scale-Password-Hashing.pdf)
 
 (fork of Jeff Garzik's reference cpuminer https://github.com/noncepool/cpuminer-yescrypt)
 
@@ -115,9 +115,9 @@ Architecture-specific notes:
 
 Usage instructions:  Run `minerd --help` to see options.
 
-To Connect to pool using your Koto Wallet Address:
+To Connect to pool using your BitZeny Wallet Address:
 ```
-    ./minerd -a yescrypt -o stratum+tcp://Koto.pool.address:port -u Your_Koto_Address -p x
+    ./minerd -a yescrypt -o stratum+tcp://zny.pool.address:port -u Your_BitZeny_Address -p x
 ```
 
 Note: Do not mine to online wallet addresses, including exchanges, as you may experience loss of coins due to how newly mined coins are confirmed.
