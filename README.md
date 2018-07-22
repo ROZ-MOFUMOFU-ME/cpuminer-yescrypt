@@ -117,7 +117,7 @@ Usage instructions:  Run `minerd --help` to see options.
 
 To Connect to pool using your BitZeny Wallet Address:
 ```
-    ./minerd -a yescrypt -o stratum+tcp://zny.pool.address:port -u Your_BitZeny_Address -p x
+    ./minerd -a yespower -o stratum+tcp://zny.pool.address:port -u Your_BitZeny_Address -p x
 ```
 
 Note: Do not mine to online wallet addresses, including exchanges, as you may experience loss of coins due to how newly mined coins are confirmed.
